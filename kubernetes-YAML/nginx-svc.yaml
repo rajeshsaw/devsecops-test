@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2022-03-02T08:54:14Z"
+  labels:
+    app: deploy-nginx
+  name: nginx-svc
+  namespace: default
+  resourceVersion: "34687"
+  uid: a5f516ab-7896-45b2-8752-6e77b4d7697b
+spec:
+  clusterIP: 10.96.23.84
+  clusterIPs:
+  - 10.96.23.84
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: deploy-nginx
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

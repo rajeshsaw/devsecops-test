@@ -1,7 +1,7 @@
 apiVersion : kyverno.io/v1
 kind: ClusterPolicy
 metadata:
-  name: add-default-resources
+  name: add-default-resources-pod
   annotations:
     policies.kyverno.io/title: Add Default Resources
     policies.kyverno.io/category: Other

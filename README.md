@@ -1,4 +1,4 @@
-# devsecops-testIt always fascinates me to see how the application development lifecycle aka SDLC has evolved rapidly in recent years from a traditional WaterFall to CI-CD framework to adapt major technology shifts like Cloud, Edge computing, AI, ML, Cloud Native technologies & mobility.
+devsecops-testIt always fascinates me to see how the application development lifecycle aka SDLC has evolved rapidly in recent years from a traditional WaterFall to CI-CD framework to adapt major technology shifts like Cloud, Edge computing, AI, ML, Cloud Native technologies & mobility.
 
 Few of the Cloud-Native techs like Docker, Containers, Kubernetes have been widely embraced across the industries & have become incredibly popular among both the technology & business world.
 
